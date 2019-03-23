@@ -6,7 +6,7 @@ fun AppCompatActivity.addFragment(fragment: androidx.fragment.app.Fragment, fram
     supportFragmentManager.inTransaction { add(frameId, fragment) }
 }
 
-fun AppCompatActivity.removeFragment(fragment: androidx.fragment.app.Fragment, frameId: Int) {
+fun AppCompatActivity.removeFragment(fragment: androidx.fragment.app.Fragment) {
     supportFragmentManager.inTransaction { remove(fragment) }
 }
 
