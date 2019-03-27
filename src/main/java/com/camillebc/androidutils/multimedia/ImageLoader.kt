@@ -16,7 +16,7 @@ class ImageLoader (
 ): Runnable {
     override fun run() {
         if (!file.exists()) saveUrlToFile(imageUrl, file)
-        if (imageView != null) displayImage(file, imageView)
+        displayImage(file, imageView)
     }
 
     private fun displayImage(file: File, imageView: ImageView) {
