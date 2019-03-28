@@ -1,6 +1,5 @@
 package com.camillebc.androidutils.extensions
 
-import java.lang.StringBuilder
 import java.text.SimpleDateFormat
 import java.util.*
 
